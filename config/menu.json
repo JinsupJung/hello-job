@@ -1,0 +1,39 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "우리는",
+      "url": "/about"
+    },
+    {
+      "name": "블로그",
+      "url": "/blog"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "name": "회사소개",
+      "url": "/about"
+    },
+    {
+      "name": "이용약관",
+      "url": "/terms"
+    },
+    {
+      "name": "개인정보처리방침",
+      "url": "/privacy-policy"
+    },
+    {
+      "name": "이용안내",
+      "url": "/useful"
+    }
+
+  ]
+}

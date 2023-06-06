@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -20,6 +20,15 @@
       }
     ],
     "paths": {
+      "@/components/*": ["./layouts/components/*"],
+      "@/shortcodes/*": ["./layouts/shortcodes/*"],
+      "@/partials/*": ["./layouts/partials/*"],
+      "@/layouts/*": ["./layouts/*"],
+      "@/content/*": ["./content/*"],
+      "@/config/*": ["./config/*"],
+      "@/styles/*": ["./styles/*"],
+      "@/hooks/*": ["./hooks/*"],
+      "@/lib/*": ["./lib/*"],
       "@/*": ["./*"]
     }
   },

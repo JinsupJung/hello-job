@@ -1,0 +1,47 @@
+{
+  "site": {
+    "title": "PromptMarket",
+    "base_url": "https://prompt-bank.vercel.app",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_darkmode": "/images/logo-darkmode.png",
+    "logo_width": "80",
+    "logo_height": "50",
+    "logo_text": "PromptMarket"
+  },
+
+  "settings": {
+    "search": true,
+    "sticky_header": true,
+    "theme_switcher": true,
+    "default_theme": "system",
+    "pagination": 2,
+    "summary_length": 200,
+    "blog_folder": "blog"
+  },
+
+  "params": {
+    "contact_form_action": "/api/send-email",
+    "copyright": "IT Heyoom"
+  },
+
+  "navigation_button": {
+    "enable": false,
+    "label": "Get Started",
+    "link": "https://github.com/zeon-studio/nextplate"
+  },
+
+  "disqus": {
+    "enable": true,
+    "shortname": "themefisher-template",
+    "settings": {}
+  },
+
+  "metadata": {
+    "meta_author": "아이티혜윰",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "고민하시는 프롬프트를 프롬프트 엔지니어의 도움으로 빠르고 정확하게 제작해 드립니다."
+  }
+}
